@@ -10,7 +10,7 @@
     width: 80%;
     font-family: 'Montserrat', sans-serif;
 }
-
+/* Header */
 #logo img{
     height: 50px;
     border-right: 1px solid grey;
@@ -35,7 +35,7 @@ nav li a{
 nav li a:hover{
     text-decoration: underline;
 }
-
+/* Sezione1 Main */
 .sez1{
     height: 500px;
     border-radius: 20px;
@@ -51,7 +51,7 @@ nav li a:hover{
     bottom: 60px;
     left: 60px;
 }
-
+/* Sezione2 Main */
 .sez2{
     margin: 40px 0px;
 }
@@ -82,7 +82,7 @@ nav li a:hover{
     display: block;
     /* toglie mini margin default */
 }
-
+/* Inizio Overlay */
 .img_container{
     position: relative;
 }
@@ -95,7 +95,8 @@ nav li a:hover{
     height: 100%;
     background-color:rgba(0,0,0,.2);
     border-radius: 20px;
-}
+}   
+/* Fine Overlay */
 
 .text_block{
     margin-top: 20px;
@@ -118,7 +119,7 @@ nav li a:hover{
     width: 58%;
     margin: 2% 1%;
 }
-
+/* Footer */
 footer{
     text-align: center;
     margin-top: 5px;
