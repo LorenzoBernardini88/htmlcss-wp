@@ -3,33 +3,39 @@
     margin: 0px;
     padding:0px;
     box-sizing: border-box;
-
 }
+
 .container{
     margin: auto;
     width: 80%;
     font-family: 'Montserrat', sans-serif;
 }
+
 #logo img{
     height: 50px;
     border-right: 1px solid grey;
     padding-right: 20px;
 }
+
 nav{
     margin: 40px 0px;
 }
+
 nav li{
     display: inline;
     text-transform: uppercase;
     list-style: none;
     padding-right: 10px;
 }
+
 nav li a{
     color: grey;
 }
+
 nav li a:hover{
     text-decoration: underline;
 }
+
 .sez1{
     height: 500px;
     border-radius: 20px;
@@ -37,6 +43,7 @@ nav li a:hover{
     background-size: cover;
     position: relative;
 }
+
 .sez1_text{
     width: 60%;
     color:white;
@@ -47,8 +54,8 @@ nav li a:hover{
 
 .sez2{
     margin: 40px 0px;
-    
 }
+
 .head_sez2 h1{
     font-size: 50px;
 }
@@ -75,9 +82,11 @@ nav li a:hover{
     display: block;
     /* toglie mini margin default */
 }
+
 .img_container{
     position: relative;
 }
+
 .overlay{
     position: absolute;
     top:0px;
