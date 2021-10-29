@@ -30,10 +30,18 @@ nav li a:hover{
 }
 .sez1{
     height: 500px;
+    border-radius: 20px;
     background-image: url(img/banner.jpg);
     background-size: cover;
-    
+    position: relative;
 
+}
+.sez1_text{
+    width: 60%;
+    color:white;
+    position: absolute;
+    bottom: 60px;
+    left: 60px;
 }
 
 .sez2{
