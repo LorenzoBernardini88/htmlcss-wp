@@ -44,14 +44,19 @@ nav li a:hover{
 }
 
 .sez2{
-    background-color:royalblue;
-    margin:40px 0px;
+    margin: 40px 0px;
+    
 }
 .head_sez2 h1{
     font-size: 50px;
 }
-.head_sez2 p{
+
+.sez2 p{
     color: gray;
+}
+
+.colonne{
+    margin-top: 10px;
 }
 
 .colonne::after{
@@ -59,12 +64,6 @@ nav li a:hover{
     clear: both;
     display: table;
 }
-
-.head_sez2,
-.blocco{
-    background-color: lightskyblue;
-}
-
 
 .blocco img{
     object-fit: cover;
@@ -85,6 +84,10 @@ nav li a:hover{
     height: 100%;
     background-color:rgba(0,0,0,.2);
     border-radius: 20px;
+}
+
+.text_block{
+    margin-top: 20px;
 }
 
 
@@ -109,5 +112,6 @@ footer{
     background-color: purple;
     margin-top: 10px;
 }
+
 
 
