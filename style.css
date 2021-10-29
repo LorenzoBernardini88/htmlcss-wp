@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 
 *{
     margin: 0px;
@@ -52,7 +51,6 @@ nav li a:hover{
 }
 .head_sez2 h1{
     font-size: 50px;
-    font-weight: bold;
 }
 
 .sez2 p{
@@ -92,6 +90,10 @@ nav li a:hover{
 
 .text_block{
     margin-top: 20px;
+}
+
+.text_block p{
+    margin-top: 10px;
 }
 
 .blocco{
