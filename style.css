@@ -1,8 +1,12 @@
-.container{
+*{
     margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+
+}
+.container{
     margin: auto;
     width: 80%;
-    box-sizing: border-box;
 }
 #logo img{
     height: 50px;
@@ -25,9 +29,11 @@ nav li a:hover{
     text-decoration: underline;
 }
 .sez1{
-    height: 300px;
-    background-color:khaki;
-    margin:20px 0px;
+    height: 500px;
+    background-image: url(img/banner.jpg);
+    background-size: cover;
+    
+
 }
 
 .sez2{
