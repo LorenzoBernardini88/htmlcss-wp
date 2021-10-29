@@ -60,16 +60,33 @@ nav li a:hover{
     display: table;
 }
 
-.head_sez2,.blocco{
+.head_sez2,
+.blocco{
     background-color: lightskyblue;
 }
 
-.img_b1{
-    height: 200px;
-    background-image: url(img/img-1.jpg);
-    border-radius: 20px;
 
+.blocco img{
+    object-fit: cover;
+    height: 200px;
+    border-radius: 20px;
+    width: 100%;
+    display: block;
+    /* toglie mini margin default */
 }
+.img_container{
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    top:0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color:rgba(0,0,0,.2);
+    border-radius: 20px;
+}
+
 
 .blocco{
     height: 350px;
